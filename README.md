@@ -27,10 +27,15 @@ A smart, modular, GUI-based Python assistant built for automation, file manageme
 ├── assistant_config.py # Stores model/host configurations
 
 ├── skills/
+
 │ ├── init.py
+
 │ ├── file_search.py
+
 │ ├── disk_usage.py
+
 │ ├── your_custom_skills.py
+
 │ └── ...
 
 ## 🛠️ How It Works
