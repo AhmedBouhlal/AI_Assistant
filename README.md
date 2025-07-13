@@ -55,6 +55,7 @@ def register():
         "description": "Searches for files on your system.",
         "security": "open"
     }
+```
 3. Skills are auto-loaded and callable from the GUI or CLI.
 
 ##🚀 Getting Started
@@ -63,12 +64,12 @@ def register():
 
 ```bash
 pip install -r requirements.txt
-
+```
 2. Run the assistant:
 
 ```bash
 python main_gui.py
-
+```
 ##🧠 How to Add a New Skill
 
 1. Create a new Python file inside skills/, e.g. hello.py
@@ -85,6 +86,7 @@ def register():
         "description": "Says hello.",
         "security": "open"
     }
+```
 3. It will automatically load on next run.
 
 .
@@ -101,7 +103,7 @@ assistant_config.py
 ```python
 OLLAMA_MODEL = "llama3"
 OLLAMA_HOST = "http://localhost:11434/api/generate"
-
+```
 ##📁 Logs
 
 All skill calls are logged via log_action(skill_name, data) in assistant_core.py.
