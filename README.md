@@ -58,7 +58,7 @@ def register():
 ```
 3. Skills are auto-loaded and callable from the GUI or CLI.
 
-##🚀 Getting Started
+## 🚀 Getting Started
 
 1. Install dependencies:
 
@@ -70,7 +70,7 @@ pip install -r requirements.txt
 ```bash
 python main_gui.py
 ```
-##🧠 How to Add a New Skill
+## 🧠 How to Add a New Skill
 
 1. Create a new Python file inside skills/, e.g. hello.py
 2. Write your function and register it:
@@ -91,7 +91,7 @@ def register():
 
 .
 
-##🛡️ Security
+## 🛡️ Security
 
 You can tag any skill as "open" or "restricted" to control access.
 
@@ -104,19 +104,19 @@ assistant_config.py
 OLLAMA_MODEL = "llama3"
 OLLAMA_HOST = "http://localhost:11434/api/generate"
 ```
-##📁 Logs
+## 📁 Logs
 
 All skill calls are logged via log_action(skill_name, data) in assistant_core.py.
 
-##📌 Notes
+## 📌 Notes
 
 The assistant runs fully offline.
 You are free to add or remove any skills in skills/
 
-##🧠 License
+## 🧠 License
 
 MIT — free to use, modify, and redistribute.
 
-##🙌 Credits
+## 🙌 Credits
 
 Built by [Ahmed BOUHLAL] for productivity, automation, and AI experimentation.
