@@ -56,6 +56,7 @@ def register():
         "security": "open"
     }
 ```
+
 3. Skills are auto-loaded and callable from the GUI or CLI.
 
 ## 🚀 Getting Started
