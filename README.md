@@ -96,7 +96,7 @@ def register():
 
 You can tag any skill as "open" or "restricted" to control access.
 
-##🤖 Model Integration
+## 🤖 Model Integration
 
 Uses a local Ollama instance running a model like LLaMA 3. You can configure it via:
 
