@@ -19,9 +19,13 @@ A smart, modular, GUI-based Python assistant built for automation, file manageme
 
 .
 ├── assistant_main.py # Entry point for the GUI assistant
+
 ├── assistant_core.py # Loads and executes skills
+
 ├── ai_interface.py # Connects to local models like LLaMA (via Ollama)
+
 ├── assistant_config.py # Stores model/host configurations
+
 ├── skills/
 │ ├── init.py
 │ ├── file_search.py
